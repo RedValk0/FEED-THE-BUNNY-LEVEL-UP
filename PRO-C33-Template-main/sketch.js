@@ -119,11 +119,11 @@ function draw()
     fruit = null;
     //bunny.change('eating');
 
-    //bunny.changeAnimation('eating');
+    bunny.changeAnimation('eating');
 
     //bunny.changeAnimation();
 
-    bunny.Animation('eating');
+    //bunny.Animation('eating');
   }
   
   if(collide(fruit,bubble,40) == true)
